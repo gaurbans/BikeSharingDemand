@@ -1,1 +1,5 @@
-# BikeSharingDemand
+This is one of Gaurav Bansal's attempt at the Kaggle Bike Sharing Demand contest. It uses a combined Random Forest and Generalized Linear Model prediction. This model predicts bike share use in Washington, DC with a root mean squared logarithmic error (RMSLE) of 0.77415. In the contest, contestants are given bike share use data from the 1st through the 19th of each month during the years 2011 and 2012. Contestants must predict bike share use during the remaining days of each month. Contestants are not supposed to use future months' data to predict bike share use for a given month. This model adheres to that rule. 
+
+The model was created in R. The R code is in the file 'bikeshare.R'. The training set is in 'train.csv' and the test data is in 'test.csv'. The model output is in 'BikeshareResult.csv'.
+
+A full description of the contest can be found at https://www.kaggle.com/c/bike-sharing-demand
